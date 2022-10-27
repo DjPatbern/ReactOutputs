@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+.btn{
+  color: white;
+  border: wheat 2px solid;
+  margin: 10px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.li {
+  text-align: left;
+}
+
+.li-div {
+  padding: 1%;
+  border: 2px wheat solid;
+  border-radius:  10px;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  margin-right: 1%;
+  margin-left: 1%;
+
+} 
+
+.pagination {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid wheat;
+  color: white;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: #282c34;
+  background-color: grey;
+}
+
+.paginationActive a {
+  color: #282c34;
+  background-color: wheat;
+}
+
+.paginationDisabled a {
+  color: white;
+  background-color: grey;
+}
